@@ -1,0 +1,269 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-23T16:19:09.538Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC06_user searches the product in Amazon",
+        "description": "",
+        "id": "amazon-urun-arama;tc06-user-searches-the-product-in-amazon;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1348000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13281000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to the \"https://amazon.com\" that page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://amazon.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.ExplicitStepDefinition.user_goes_to_the_that_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3670000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user text \"headphones\" in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"headphones\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_text_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user text the result count on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.user_text_the_result_count_on_the_console()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonurunarama"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-23T16:19:28.078Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC06_user searches the product in Amazon",
+        "description": "",
+        "id": "amazon-urun-arama;tc06-user-searches-the-product-in-amazon;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1116000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12560000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to the \"https://amazon.com\" that page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://amazon.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.ExplicitStepDefinition.user_goes_to_the_that_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6648000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user text \"tv\" in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tv\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_text_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user text the result count on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.user_text_the_result_count_on_the_console()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonurunarama"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-23T16:19:48.457Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC06_user searches the product in Amazon",
+        "description": "",
+        "id": "amazon-urun-arama;tc06-user-searches-the-product-in-amazon;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1169000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12971000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to the \"https://amazon.com\" that page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://amazon.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.ExplicitStepDefinition.user_goes_to_the_that_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3962000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user text \"sponge\" in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sponge\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_text_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user text the result count on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.user_text_the_result_count_on_the_console()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonurunarama"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon urun Arama",
+    "description": "",
+    "id": "amazon-urun-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazonarama.feature",
+    "tags": []
+  }
+]

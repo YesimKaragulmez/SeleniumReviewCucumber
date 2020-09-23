@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="57.824">
+<testcase classname="Amazon urun Arama" name="TC06_user searches the product in Amazon" time="18.529">
+<system-out><![CDATA[Given user goes to the "https://amazon.com" that page.......................passed
+And user text "headphones" in the searchbox.................................passed
+Then user text the result count on the console..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon urun Arama" name="TC06_user searches the product in Amazon 2" time="20.374">
+<system-out><![CDATA[Given user goes to the "https://amazon.com" that page.......................passed
+And user text "tv" in the searchbox.........................................passed
+Then user text the result count on the console..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon urun Arama" name="TC06_user searches the product in Amazon 3" time="18.158">
+<system-out><![CDATA[Given user goes to the "https://amazon.com" that page.......................passed
+And user text "sponge" in the searchbox.....................................passed
+Then user text the result count on the console..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
