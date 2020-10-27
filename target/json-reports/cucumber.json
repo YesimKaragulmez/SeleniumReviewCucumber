@@ -1,13 +1,13 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-09-23T16:19:09.538Z",
+        "start_timestamp": "2020-10-27T21:20:05.217Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "match": {
@@ -16,13 +16,13 @@
           }
         ],
         "line": 11,
-        "name": "TC06_user searches the product in Amazon",
+        "name": "fhctrip websitesine kayit",
         "description": "",
-        "id": "amazon-urun-arama;tc06-user-searches-the-product-in-amazon;;2",
+        "id": "fhctrip-kayit;fhctrip-websitesine-kayit;data-test;2",
         "after": [
           {
             "result": {
-              "duration": 1348000000,
+              "duration": 476000000,
               "status": "passed"
             },
             "match": {
@@ -35,61 +35,79 @@
         "steps": [
           {
             "result": {
-              "duration": 13281000000,
+              "duration": 24922000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "user goes to the \"https://amazon.com\" that page",
+            "name": "user goes to the fhctrip page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"https://amazon.com\"",
-                  "offset": 17
-                }
-              ],
-              "location": "stepdefinitions.ExplicitStepDefinition.user_goes_to_the_that_page(java.lang.String)"
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_goes_to_the_fhctrip_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3670000000,
+              "duration": 391000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "user text \"headphones\" in the searchbox",
+            "name": "user fill the username \"YesimK\" box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"headphones\"",
-                  "offset": 10
+                  "val": "\"YesimK\"",
+                  "offset": 23
                 }
               ],
-              "location": "stepdefinitions.AmazonStepDefinitions.user_text_in_the_searchbox(java.lang.String)"
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_username_box(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 67000000,
+              "duration": 244000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "user text the result count on the console",
+            "name": "user fill the email \"yc@gmail\" box",
             "match": {
-              "location": "stepdefinitions.AmazonStepDefinitions.user_text_the_result_count_on_the_console()"
+              "arguments": [
+                {
+                  "val": "\"yc@gmail\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_email_box(java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fill the fullname \"Yesim Kara\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yesim Kara\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_fullname_box(java.lang.String)"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@amazonurunarama"
+            "name": "@fhctrip"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-23T16:19:28.078Z",
+        "start_timestamp": "2020-10-27T21:20:31.546Z",
         "before": [
           {
             "result": {
@@ -101,13 +119,13 @@
           }
         ],
         "line": 12,
-        "name": "TC06_user searches the product in Amazon",
+        "name": "fhctrip websitesine kayit",
         "description": "",
-        "id": "amazon-urun-arama;tc06-user-searches-the-product-in-amazon;;3",
+        "id": "fhctrip-kayit;fhctrip-websitesine-kayit;data-test;3",
         "after": [
           {
             "result": {
-              "duration": 1116000000,
+              "duration": 388000000,
               "status": "passed"
             },
             "match": {
@@ -120,8 +138,317 @@
         "steps": [
           {
             "result": {
-              "duration": 12560000000,
+              "duration": 1780000000,
               "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to the fhctrip page",
+            "match": {
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_goes_to_the_fhctrip_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 214000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fill the username \"FiratK\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FiratK\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_username_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fill the email \"af@gmail\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"af@gmail\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fill the fullname \"Ahmet Firat\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ahmet Firat\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_fullname_box(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fhctrip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-27T21:20:34.270Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "fhctrip websitesine kayit",
+        "description": "",
+        "id": "fhctrip-kayit;fhctrip-websitesine-kayit;data-test;4",
+        "after": [
+          {
+            "result": {
+              "duration": 361000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1301000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to the fhctrip page",
+            "match": {
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_goes_to_the_fhctrip_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fill the username \"azrak\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"azrak\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_username_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fill the email \"ag@gmail\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ag@gmail\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fill the fullname \"azra gulsum\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"azra gulsum\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_fullname_box(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fhctrip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-27T21:20:36.473Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "fhctrip websitesine kayit",
+        "description": "",
+        "id": "fhctrip-kayit;fhctrip-websitesine-kayit;data-test;5",
+        "after": [
+          {
+            "result": {
+              "duration": 385000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1184000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to the fhctrip page",
+            "match": {
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_goes_to_the_fhctrip_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fill the username \"ahsenk\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahsenk\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_username_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fill the email \"as@gmail\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"as@gmail\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_email_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fill the fullname \"ahsen saadet\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahsen saadet\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepdefinitions.user_fill_the_fullname_box(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fhctrip"
+          }
+        ]
+      }
+    ],
+    "name": "Fhctrip Kayit",
+    "description": "",
+    "id": "fhctrip-kayit",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/fhctripkayit.feature",
+    "tags": [
+      {
+        "name": "@fhctrip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-3IAPGKF\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: e25fa4cc6e7e2d7dd86dfe5e08d6e6f2\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat utilities.Driver.getDriver(Driver.java:48)\r\n\tat stepdefinitions.Hooks.tearDown(Hooks.java:22)\r\n",
+              "duration": 13000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.ExplicitStepDefinition\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:135)\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:121)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:49)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:51)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:67)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\r\n\tat org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: java.lang.reflect.InvocationTargetException\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:129)\r\n\t... 39 more\r\nCaused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-3IAPGKF\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: e25fa4cc6e7e2d7dd86dfe5e08d6e6f2\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat utilities.Driver.getDriver(Driver.java:48)\r\n\tat pages.ExplicitPage.\u003cinit\u003e(ExplicitPage.java:12)\r\n\tat stepdefinitions.ExplicitStepDefinition.\u003cinit\u003e(ExplicitStepDefinition.java:15)\r\n\t... 44 more\r\n",
+              "duration": 15000000,
+              "status": "failed"
             },
             "line": 5,
             "name": "user goes to the \"https://amazon.com\" that page",
@@ -138,8 +465,7 @@
           },
           {
             "result": {
-              "duration": 6648000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user text \"tv\" in the searchbox",
@@ -156,8 +482,7 @@
           },
           {
             "result": {
-              "duration": 49000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "user text the result count on the console",
@@ -174,7 +499,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-23T16:19:48.457Z",
+        "start_timestamp": "2020-10-27T21:20:27.076Z",
         "before": [
           {
             "result": {
@@ -192,8 +517,9 @@
         "after": [
           {
             "result": {
-              "duration": 1169000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-3IAPGKF\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: e25fa4cc6e7e2d7dd86dfe5e08d6e6f2\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat utilities.Driver.getDriver(Driver.java:48)\r\n\tat stepdefinitions.Hooks.tearDown(Hooks.java:22)\r\n",
+              "duration": 14000000,
+              "status": "failed"
             },
             "match": {
               "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -205,8 +531,9 @@
         "steps": [
           {
             "result": {
-              "duration": 12971000000,
-              "status": "passed"
+              "error_message": "io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinitions.ExplicitStepDefinition\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:135)\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.getInstance(ObjectFactoryServiceLoader.java:121)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:49)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:51)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:67)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\r\n\tat org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:219)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: java.lang.reflect.InvocationTargetException\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat io.cucumber.core.runtime.ObjectFactoryServiceLoader$DefaultJavaObjectFactory.cacheNewInstance(ObjectFactoryServiceLoader.java:129)\r\n\t... 39 more\r\nCaused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-3IAPGKF\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: e25fa4cc6e7e2d7dd86dfe5e08d6e6f2\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat utilities.Driver.getDriver(Driver.java:48)\r\n\tat pages.ExplicitPage.\u003cinit\u003e(ExplicitPage.java:12)\r\n\tat stepdefinitions.ExplicitStepDefinition.\u003cinit\u003e(ExplicitStepDefinition.java:15)\r\n\t... 44 more\r\n",
+              "duration": 17000000,
+              "status": "failed"
             },
             "line": 5,
             "name": "user goes to the \"https://amazon.com\" that page",
@@ -223,8 +550,7 @@
           },
           {
             "result": {
-              "duration": 3962000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user text \"sponge\" in the searchbox",
@@ -241,8 +567,7 @@
           },
           {
             "result": {
-              "duration": 55000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "user text the result count on the console",
